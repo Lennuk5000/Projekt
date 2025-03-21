@@ -1,0 +1,9 @@
+variable "ssh_key" {
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCREfqOVas809qZZwk0adZ1YvzTcv12mxt50r+33taTiIrTYimA5to5U04eh58eV0/0RJywevyBQXm7827m4Py2HW2nKNJA3Gc40+4TRPDzpGaL177rJFWuXzVyq91fxvGH6+Sqy8cGkBXwWE7jITGR3Iyn8/hOrxYLh1sgzyNvQFZRRaSLK74sHJlhiaDZxfrodgqKyoyDc5s+bNnYQrtQYtg+3jJbANZ+HJ+40C/FlA+aRPU0i6Q5n/sjESklqOpxYEjs2FP7v1DfTvih117H7ADzHU/OXu+AkYKlugrPLe2fiq9tFuKdp48zXL4fzzoAnUxdjV9s54+Nhyduor/t4/82vl9SlCjGXE6SF3tbDDkboeWMQdgr9UaGRMi2dFGau99vHS6MA2pb9mgx+mfp2J1zQ/J/caoJqNwBGkjUKUDW3RKbWUSfOvJHalDtGq4aOeFuF/aMde5v1VvL/qtg1LKMUwrWVEwIMyLEQMmu1cF497gbkNF63DEp6OacrdECOb55aexGyYkvcHpAptyzT+3Os7rV8zEiEm9HjEQ4LnHL340IbWs7E/RNzNtcmJQXHTOm/0CTIvWrv1JK35b92bah0I4FXUVn6lufwyzWdf855T+SE7NrD2PR5DQFrxai/9pYpTHERBtyqoqLMlZC2RuxjdCIuJ0oCxpwOS7MLw== sten.kenk@rak.ee"
+}
+variable "proxmox_host" {
+  default = "labor"
+}
+variable "template_name" {
+  default = "8001"
+}
